@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+
+h1{
+    padding: 10px;
+    margin: 0px;
+}
+
+.text{
+    margin: 0;
+    padding: 20px;
+}
+
+
+header{
+    height: 200px;
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Bahnschrift';
+}
+main{
+    height: 1000px;
+    background-color: rgb(157, 225, 156);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    font-size: 21px;
+    
+}
+.right{
+    width: 50%;
+    text-align: center;
+}
+
+
+footer{
+    height: 200px;
+    background-color: rgb(240, 160, 128);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+    padding-top: 25px;
+}
+
+
+.social img{
+    width: 100px;
+    padding-left: 10px;
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
