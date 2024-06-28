@@ -16,13 +16,19 @@ h1{
 header{
     height: 200px;
     background-color: aqua;
-    color: rgb(0, 0, 0);
+    color: rgb(206, 251, 251);
     text-align: center;
     font-size: 30px;
-    font-family: 'Bahnschrift';
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+   background-image: url(https://leagueofcoffee.ru/assets/cache_image/img/spoiled_coffee_800x450_ccf.jpg);
+   background-size: cover;
+   text-shadow: 1px 2px 5px black;
 }
 main{
-    height: 1000px;
+    height: 1250px;
     background-color: rgb(157, 225, 156);
     color: rgb(0, 0, 0);
     text-align: center;
@@ -63,3 +69,15 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+
+
+
+.carousel {
+    max-width: 600px; /* Устанавливаем максимальную ширину карусели */
+    margin: auto; /* Центрируем карусель по горизонтали */
+  }
+  .carousel-item img {
+    max-width: 100%; /* Чтобы изображения внутри карусели были адаптивными */
+    height: auto;
+  }
